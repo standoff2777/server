@@ -1,0 +1,12 @@
+# Логи
+logs/
+cache/
+versions/
+
+# Миры
+world/
+world_nether/
+world_the_end/
+
+# Временные файлы
+*.lock

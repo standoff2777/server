@@ -1,0 +1,188 @@
+# %check_name% - name of the check
+# %description% - description of the check
+# %vl% - violations
+# %verbose% - extra information
+# %player% - player name
+# [alert] - special command to alert
+# [webhook] - special command to alert to discord webhook
+# [proxy] - special command to alert to other servers connected to your proxy (BungeeCord/Velocity)
+
+
+
+
+#BY TOLUAM 
+
+
+
+
+
+Punishments:
+  Simulation:
+    remove-violations-after: 180
+    checks:
+      - "Simulation"
+    commands:
+      - "50:10 [alert]"
+      - "100:30 [proxy]"      
+      - "100:100 [webhook]"
+
+  GroundSpoof:
+    remove-violations-after: 300
+    checks:
+      - "GroundSpoof"
+    commands:
+      - "10:10 [alert]"
+      - "10:2 [proxy]"
+      - "20:20 [webhook]"
+      - "15:0 tempban %player% 1d Ground"
+
+  Timer:
+    remove-violations-after: 300
+    checks:
+      - "Timer"
+    commands:
+      - "10:1 [alert]"
+      - "10:2 [proxy]"
+      - "20:20 [webhook]"
+      - "15:0 tempban %player% 1d Timer"
+
+  Explosion:
+    remove-violations-after: 300
+    checks:
+      - "Explosion"
+    commands:
+      - "10:10 [alert]"
+      - "20:20 [webhook]"
+
+  Knockback:
+    remove-violations-after: 300
+    checks:
+      - "Knockback"
+    commands:
+      - "5:1 [alert]"
+      - "5:5 [proxy]"
+      - "10:0 [webhook]"      
+      - "10:0 tempban %player% 5d Velocity"
+
+  Post:
+    remove-violations-after: 300
+    checks:
+      - "Post"
+    commands:
+      - "20:20 [alert]"
+      - "40:40 [webhook]"
+      - "40:40 [proxy]"
+      - "40:0 tempban %player% 5d Post"
+  BadPackets:
+    remove-violations-after: 300
+    checks:
+      - "BadPackets"
+    commands:
+      - "10:5 [alert]"
+      - "15:10 [proxy]"
+      - "20:0 [webhook]"
+      - "20:0 kick %player% Bad Packet"
+  Crash:
+    remove-violations-after: 300
+    checks:
+      - "Crash"
+    commands:
+      - "10:5 [alert]"
+      - "15:10 [proxy]"
+      - "20:0 [webhook]"
+      - "20:0 kick %player% Bad Packet"
+
+  Reach:
+    remove-violations-after: 300
+    checks:
+      - "Reach"
+    commands:
+      - "1:1 [alert]"
+      - "3:1 [proxy]"
+      - "5:0 [webhook]"
+      - "5:0 tempban %player% 5d Reach"
+
+  EntityControl:
+    remove-violations-after: 300
+    checks:
+      - "EntityControl"
+    commands:
+      - "10:10 [alert]"
+      - "20:20 [webhook]"
+
+  TransactionOrder:
+    remove-violations-after: 300
+    checks:
+      - "TransactionOrder"
+    commands:
+      - "10:10 [alert]"
+      - "20:0 [webhook]"
+      - "20:0 kick %player% Bad Transaction"
+
+  Baritone:
+    remove-violations-after: 300
+    checks:
+      - "Baritone"
+    commands:
+      - "10:10 [alert]"
+      - "20:20 [proxy]"
+
+  NoSlow:
+    remove-violations-after: 300
+    checks:
+      - "NoSlow"
+    commands:
+      - "10:5 [alert]"
+      - "10:10 [proxy]"
+      - "20:0 [webhook]"
+      - "20:0 tempban %player% 1d NoSlow"
+
+  Scaffold:
+    remove-violations-after: 300
+    checks:
+      - "Place"
+    commands:
+      - "10:1 [alert]"
+      - "10:5 [proxy]"
+      - "20:0 [webhook]"
+      - "20:0 tempban %player% 1d NoSlow"
+
+  FastBreak:
+    remove-violations-after: 300
+    checks:
+      - "FastBreak"
+    commands:
+      - "5:1 [alert]"
+      - "5:5 [proxy]"
+      - "15:0 [webhook]"
+      - "15:0 tempban %player% 1d FastBreak"
+  
+  NoFall:
+    remove-violations-after: 300
+    checks:
+      - "NoFall"
+    commands:
+      - "10:5 [alert]"
+      - "20:10 [proxy]"
+      - "30:30 [webhook]"      
+      - "30:30 tempban %player% 1d NoFall"
+
+  Aim:
+    remove-violations-after: 300
+    checks:
+      - "Aim"
+    commands:
+      - "20:5 [alert]"
+      - "40:10 [proxy]"
+      - "30:30 [webhook]"  
+      - "50:0 tempban %player% 5d Aim"
+
+  Killaura:
+    remove-violations-after: 300
+    checks:
+      - "Killaura"
+    commands:
+      - "10:10 [alert]"
+      - "20:20 [proxy]"
+      - "30:0 [webhook]"
+      - "30:0 tempban %player% 5d Killaura"
