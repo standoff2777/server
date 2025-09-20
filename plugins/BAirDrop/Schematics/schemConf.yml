@@ -1,0 +1,8 @@
+schematics:
+  test: #Name
+    file: 'test.schem' #file
+    ignore-air-blocks: true
+    offsets-x: 0 # offset
+    offsets-y: 0
+    offsets-z: 0
+

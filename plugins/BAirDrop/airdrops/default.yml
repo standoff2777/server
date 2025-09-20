@@ -1,0 +1,275 @@
+air-name: Мховый Шалкер
+inv-name: Мховый Шалкер
+chest-inventory-size: 54
+air-id: default
+air-spawn-world: world
+air-spawn-radius-min: -2000
+air-spawn-radius-max: 2000
+air-radius-protect: 15
+spawn-chance: 100
+timeToStart: 2
+use-pre-generated-locations: false
+search-before-start: 1
+stop-when-empty: false
+use-only-static-loc: false
+flatness-check: false
+use-static-loc: false
+static-location:
+  world: world
+  x: 0.0
+  y: 0.0
+  z: 0.0
+generator-settings: default
+air-holo-to-start:
+- '{air-name}'
+- '&aTime to start: &f{time-to-start} sec'
+air-holo:
+- '{air-name}'
+- '&cЗакрыт!'
+- '&aОсталось: &f{time-to-open} сек до открытия'
+air-holo-open:
+- '{air-name}'
+- '&aОткрыт!'
+air-holo-click-wait:
+- '{air-name}'
+- '&7Click to activate'
+
+
+holo-offsets:
+  x: 0.5
+  y: 2.5
+  z: 0.5
+
+openingTime: 1
+start-countdown-after-click: false
+time-stop-event-must-go: false
+time-stop-event: 1
+chest-material-locked: RESPAWN_ANCHOR
+chest-material-unlocked: CHEST
+min-online-players: 5
+random-slot: true
+signed-events:
+- chest-closed
+- spawn-particle
+- activate
+- alert
+- alert-end
+- end
+- spawn-summoner
+- anim
+- chest-open
+- schemtest_set
+- schemtest_rem
+state:
+  airDropLocation:
+    ==: org.bukkit.Location
+    world: world
+    x: -1836.0
+    y: 72.0
+    z: -973.0
+    pitch: 0.0
+    yaw: 0.0
+  timeStop: 41
+  airDropStarted: true
+  wasOpened: false
+  item-0:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: DIRT
+  item-41:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+    amount: 2
+  item-42:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-47:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-24:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-49:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-48:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-29:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-28:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  version: 1
+  timeToStart: 0
+  airDropLocked: false
+  effects:
+    ef_helix:
+      loc:
+        ==: org.bukkit.Location
+        world: world
+        x: -1836.0
+        y: 72.0
+        z: -973.0
+        pitch: 0.0
+        yaw: 0.0
+      color:
+        ==: Color
+        ALPHA: 255
+        RED: 255
+        BLUE: 255
+        GREEN: 0
+      ticks: 34440
+      timeUpdate: 15
+      count: 0
+      used: true
+      stop: false
+      size: 3.0
+      offsets:
+        ==: Vector
+        x: 0.5
+        y: 0.7
+        z: 0.5
+      particle: DUST
+      step: 0.05
+      radius: 1.0
+      class: org.by1337.bairdrop.effect.effectImpl.Helix
+      height: 30.0
+    ef_rnd:
+      loc:
+        ==: org.bukkit.Location
+        world: world
+        x: -1836.0
+        y: 72.0
+        z: -973.0
+        pitch: 0.0
+        yaw: 0.0
+      stop: false
+      ticks: 34434
+      timeUpdate: 2
+      count: 0
+      particle:
+      - FLAME
+      - PORTAL
+      - FALLING_OBSIDIAN_TEAR
+      - SOUL_FIRE_FLAME
+      - ENCHANT
+      - TOTEM_OF_UNDYING
+      used: true
+      radius: 7.0
+      class: org.by1337.bairdrop.effect.effectImpl.RandomParticle
+  item-50:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+    amount: 2
+  timeToOpen: 0
+  item-30:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-31:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-33:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  item-38:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+  activated: false
+  item-37:
+    ==: org.bukkit.inventory.ItemStack
+    v: 4189
+    type: SNOWBALL
+inv:
+  inv51711:
+    '0':
+      '30':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: DIRT
+    '24':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '28':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '29':
+      '30':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '30':
+      '40':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '31':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '33':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '37':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '38':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '41':
+      '90':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+        amount: 2
+    '42':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '47':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '48':
+      '100':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '49':
+      '46':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+    '50':
+      '80':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: SNOWBALL
+        amount: 2

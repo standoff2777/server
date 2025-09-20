@@ -10,3 +10,5 @@ world_the_end/
 
 # Временные файлы
 *.lock
+usercache.json
+

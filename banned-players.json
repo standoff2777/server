@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "uuid": "02ce9fe5-93c6-3005-a5ec-e507bbbac0d8",
+    "name": "SpagettifIZECefa",
+    "created": "2025-09-19 21:06:16 +0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "1d Unfair advantage"
+  },
+  {
+    "uuid": "e6f6e71e-f1b8-32cb-a47d-066aff706ad2",
+    "name": "Player237",
+    "created": "2025-09-19 13:22:17 +0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "1d Unfair advantage"
+  },
+  {
+    "uuid": "f32cf69c-7cce-3f6d-81d4-191672800bce",
+    "name": "Player411",
+    "created": "2025-09-19 15:28:03 +0500",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "1d Unfair advantage"
+  }
+]

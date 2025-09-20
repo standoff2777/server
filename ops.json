@@ -6,20 +6,14 @@
     "bypassesPlayerLimit": false
   },
   {
-    "uuid": "4bf4df82-e95c-3add-9230-1c02480b800a",
-    "name": "Collapse46390",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "dfc15316-5473-30bd-9a02-cca7dd875df4",
-    "name": "dr4d",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "6181b016-7ffb-3f89-966e-c8869321c6e2",
     "name": "piz7da_slona777",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "60ee8270-b4a6-324a-8667-d1d44e819b04",
+    "name": "marat_bablop",
     "level": 4,
     "bypassesPlayerLimit": false
   }
