@@ -1,0 +1,279 @@
+buyer:
+  gui-title: "§6Скупщик"
+  rows: 6
+  # 30 предметов: material, name, price (за штуку), slot (0..53)
+  items:
+    - material: BONE
+      name: "§fКость"
+      price: 0.10
+      slot: 10
+    - material: COAL
+      name: "§8Уголь"
+      price: 0.20
+      slot: 11
+    - material: IRON_INGOT
+      name: "§7Железный слиток"
+      price: 1.50
+      slot: 12
+    - material: GOLD_INGOT
+      name: "§6Золотой слиток"
+      price: 3.00
+      slot: 13
+    - material: DIAMOND
+      name: "§bАлмаз"
+      price: 12.00
+      slot: 14
+    - material: EMERALD
+      name: "§aИзумруд"
+      price: 10.00
+      slot: 15
+    - material: REDSTONE
+      name: "§cРедстоун"
+      price: 0.25
+      slot: 16
+    - material: LAPIS_LAZULI
+      name: "§3Ляпис"
+      price: 0.35
+      slot: 17
+    - material: COPPER_INGOT
+      name: "§6Медный слиток"
+      price: 0.30
+      slot: 18
+    - material: NETHERITE_SCRAP
+      name: "§5Осколок незера"
+      price: 20.00
+      slot: 19
+    - material: STICK
+      name: "§7Палка"
+      price: 0.02
+      slot: 20
+    - material: STRING
+      name: "§7Нить"
+      price: 0.08
+      slot: 21
+    - material: LEATHER
+      name: "§6Кожа"
+      price: 0.15
+      slot: 22
+    - material: RABBIT_HIDE
+      name: "§fШкура кролика"
+      price: 0.12
+      slot: 23
+    - material: FLINT
+      name: "§8Кремень"
+      price: 0.04
+      slot: 24
+    - material: GUNPOWDER
+      name: "§7Порох"
+      price: 0.18
+      slot: 25
+    - material: SLIME_BALL
+      name: "§aШар слизи"
+      price: 0.40
+      slot: 26
+    - material: BLAZE_ROD
+      name: "§6Жезл блейза"
+      price: 4.50
+      slot: 27
+    - material: BLAZE_POWDER
+      name: "§6Порошок блейза"
+      price: 1.25
+      slot: 28
+    - material: GLOWSTONE_DUST
+      name: "§eПыль светящегося камня"
+      price: 0.45
+      slot: 29
+    - material: PHANTOM_MEMBRANE
+      name: "§bМембрана фантома"
+      price: 2.00
+      slot: 30
+    - material: PRISMARINE_SHARD
+      name: "§3Осколок призмарина"
+      price: 0.22
+      slot: 31
+    - material: PRISMARINE_CRYSTALS
+      name: "§3Кристаллы призмарина"
+      price: 0.22
+      slot: 32
+    - material: BREAD
+      name: "§fХлеб"
+      price: 0.05
+      slot: 33
+    - material: COOKED_BEEF
+      name: "§cПриготовленная говядина"
+      price: 0.40
+      slot: 34
+    - material: POTATO
+      name: "§6Картофель"
+      price: 0.03
+      slot: 35
+    - material: CARROT
+      name: "§6Морковь"
+      price: 0.04
+      slot: 36
+    - material: WHEAT
+      name: "§eПшеница"
+      price: 0.02
+      slot: 37
+    - material: WHEAT_SEEDS
+      name: "§aСемена"
+      price: 0.01
+      slot: 38
+    - material: SUGAR
+      name: "§fСахар"
+      price: 0.05
+      slot: 39
+
+  # upgrades: для каждого материала — массив уровней {threshold, multiplier}
+  # threshold — общее накопленное количество сданных предметов; multiplier — множитель цены
+  upgrades:
+    BONE:
+      - threshold: 640
+        multiplier: 1.10
+      - threshold: 3200
+        multiplier: 1.25
+    COAL:
+      - threshold: 640
+        multiplier: 1.10
+      - threshold: 3200
+        multiplier: 1.25
+    IRON_INGOT:
+      - threshold: 160
+        multiplier: 1.10
+      - threshold: 800
+        multiplier: 1.25
+    GOLD_INGOT:
+      - threshold: 128
+        multiplier: 1.10
+      - threshold: 640
+        multiplier: 1.25
+    DIAMOND:
+      - threshold: 64
+        multiplier: 1.10
+      - threshold: 320
+        multiplier: 1.25
+    EMERALD:
+      - threshold: 64
+        multiplier: 1.10
+      - threshold: 320
+        multiplier: 1.25
+    REDSTONE:
+      - threshold: 640
+        multiplier: 1.10
+      - threshold: 3200
+        multiplier: 1.25
+    LAPIS_LAZULI:
+      - threshold: 320
+        multiplier: 1.08
+      - threshold: 1600
+        multiplier: 1.20
+    COPPER_INGOT:
+      - threshold: 640
+        multiplier: 1.08
+      - threshold: 3200
+        multiplier: 1.18
+    NETHERITE_SCRAP:
+      - threshold: 16
+        multiplier: 1.05
+      - threshold: 64
+        multiplier: 1.15
+    STICK:
+      - threshold: 1024
+        multiplier: 1.05
+      - threshold: 5120
+        multiplier: 1.10
+    STRING:
+      - threshold: 640
+        multiplier: 1.07
+      - threshold: 3200
+        multiplier: 1.15
+    LEATHER:
+      - threshold: 512
+        multiplier: 1.07
+      - threshold: 2560
+        multiplier: 1.15
+    RABBIT_HIDE:
+      - threshold: 512
+        multiplier: 1.07
+      - threshold: 2560
+        multiplier: 1.15
+    FLINT:
+      - threshold: 1024
+        multiplier: 1.05
+      - threshold: 5120
+        multiplier: 1.10
+    GUNPOWDER:
+      - threshold: 640
+        multiplier: 1.08
+      - threshold: 3200
+        multiplier: 1.18
+    SLIME_BALL:
+      - threshold: 128
+        multiplier: 1.08
+      - threshold: 640
+        multiplier: 1.18
+    BLAZE_ROD:
+      - threshold: 64
+        multiplier: 1.10
+      - threshold: 320
+        multiplier: 1.25
+    BLAZE_POWDER:
+      - threshold: 128
+        multiplier: 1.08
+      - threshold: 640
+        multiplier: 1.18
+    GLOWSTONE_DUST:
+      - threshold: 320
+        multiplier: 1.07
+      - threshold: 1600
+        multiplier: 1.15
+    PHANTOM_MEMBRANE:
+      - threshold: 64
+        multiplier: 1.08
+      - threshold: 320
+        multiplier: 1.18
+    PRISMARINE_SHARD:
+      - threshold: 320
+        multiplier: 1.07
+      - threshold: 1600
+        multiplier: 1.15
+    PRISMARINE_CRYSTALS:
+      - threshold: 320
+        multiplier: 1.07
+      - threshold: 1600
+        multiplier: 1.15
+    BREAD:
+      - threshold: 1024
+        multiplier: 1.05
+      - threshold: 5120
+        multiplier: 1.10
+    COOKED_BEEF:
+      - threshold: 256
+        multiplier: 1.07
+      - threshold: 1280
+        multiplier: 1.15
+    POTATO:
+      - threshold: 1024
+        multiplier: 1.05
+      - threshold: 5120
+        multiplier: 1.10
+    CARROT:
+      - threshold: 1024
+        multiplier: 1.05
+      - threshold: 5120
+        multiplier: 1.10
+    WHEAT:
+      - threshold: 2048
+        multiplier: 1.05
+      - threshold: 10240
+        multiplier: 1.10
+    WHEAT_SEEDS:
+      - threshold: 4096
+        multiplier: 1.03
+      - threshold: 20480
+        multiplier: 1.08
+    SUGAR:
+      - threshold: 1024
+        multiplier: 1.04
+      - threshold: 5120
+        multiplier: 1.10

@@ -44,8 +44,9 @@ openingTime: 1
 start-countdown-after-click: false
 time-stop-event-must-go: false
 time-stop-event: 1
-chest-material-locked: RESPAWN_ANCHOR
-chest-material-unlocked: CHEST
+use-blockdisplay: true
+chest-material-locked: LIME_SHULKER_BOX
+chest-material-unlocked: LIME_SHULKER_BOX
 min-online-players: 5
 random-slot: true
 signed-events:
@@ -56,7 +57,6 @@ signed-events:
 - alert-end
 - end
 - spawn-summoner
-- anim
 - chest-open
 - schemtest_set
 - schemtest_rem
@@ -64,212 +64,170 @@ state:
   airDropLocation:
     ==: org.bukkit.Location
     world: world
-    x: -1836.0
-    y: 72.0
-    z: -973.0
+    x: -619.0
+    y: 76.0
+    z: 980.0
     pitch: 0.0
     yaw: 0.0
-  timeStop: 41
-  airDropStarted: true
+  timeStop: 60
+  airDropStarted: false
+  effects: {}
   wasOpened: false
-  item-0:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: DIRT
-  item-41:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-    amount: 2
-  item-42:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-47:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-24:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-49:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-48:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-29:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-28:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
+  timeToOpen: 60
   version: 1
-  timeToStart: 0
-  airDropLocked: false
-  effects:
-    ef_helix:
-      loc:
-        ==: org.bukkit.Location
-        world: world
-        x: -1836.0
-        y: 72.0
-        z: -973.0
-        pitch: 0.0
-        yaw: 0.0
-      color:
-        ==: Color
-        ALPHA: 255
-        RED: 255
-        BLUE: 255
-        GREEN: 0
-      ticks: 34440
-      timeUpdate: 15
-      count: 0
-      used: true
-      stop: false
-      size: 3.0
-      offsets:
-        ==: Vector
-        x: 0.5
-        y: 0.7
-        z: 0.5
-      particle: DUST
-      step: 0.05
-      radius: 1.0
-      class: org.by1337.bairdrop.effect.effectImpl.Helix
-      height: 30.0
-    ef_rnd:
-      loc:
-        ==: org.bukkit.Location
-        world: world
-        x: -1836.0
-        y: 72.0
-        z: -973.0
-        pitch: 0.0
-        yaw: 0.0
-      stop: false
-      ticks: 34434
-      timeUpdate: 2
-      count: 0
-      particle:
-      - FLAME
-      - PORTAL
-      - FALLING_OBSIDIAN_TEAR
-      - SOUL_FIRE_FLAME
-      - ENCHANT
-      - TOTEM_OF_UNDYING
-      used: true
-      radius: 7.0
-      class: org.by1337.bairdrop.effect.effectImpl.RandomParticle
-  item-50:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-    amount: 2
-  timeToOpen: 0
-  item-30:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-31:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-33:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
-  item-38:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
+  timeToStart: 120
+  airDropLocked: true
   activated: false
-  item-37:
-    ==: org.bukkit.inventory.ItemStack
-    v: 4189
-    type: SNOWBALL
 inv:
   inv51711:
-    '0':
+    '4':
       '30':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: DIRT
-    '24':
-      '60':
+        type: HONEYCOMB
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Трапка","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gold"}]}'
+          PublicBukkitValues: |-
+            {
+                "huinautils:trapki_item": 1
+            }
+    '9':
+      '50':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: SNOWBALL
-    '28':
-      '60':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-    '29':
-      '30':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-    '30':
+        type: TOTEM_OF_UNDYING
+    '11':
       '40':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: SNOWBALL
+        type: ANCIENT_DEBRIS
+        amount: 2
+    '15':
+      '30':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: TNT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Улучшенный динамит III","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"blue"}]}'
+          lore:
+          - '{"text":"","extra":["x7 мощнее обычного"]}'
+    '17':
+      '20':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: TOTEM_OF_UNDYING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Талисман Урона","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"red"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Когда в левой руке:","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"+2 урона","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"dark_red"}]}'
+          enchants:
+            minecraft:silk_touch: 1
+          attribute-modifiers:
+            minecraft:attack_damage:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              slot: offhand
+              operation: 0
+              key: myplugin:damage_talisman
+          ItemFlags:
+          - HIDE_ENCHANTS
+    '18':
+      '30':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: ANCIENT_DEBRIS
+    '21':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+    '24':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: DIAMOND
+        amount: 16
+    '29':
+      '10':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: CHORUS_FRUIT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Модификатор: Хорус","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"light_purple"}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"Положи в наковальню справа,","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+          - '{"text":"","extra":[{"text":"а талисман слева.","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gray"}]}'
+          enchants:
+            minecraft:efficiency: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
     '31':
-      '90':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-    '33':
       '60':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: SNOWBALL
+        type: ANCIENT_DEBRIS
     '37':
-      '50':
+      '4':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: SNOWBALL
-    '38':
-      '50':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-    '41':
-      '90':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-        amount: 2
-    '42':
+        type: HEAVY_CORE
+    '40':
       '60':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: SNOWBALL
-    '47':
-      '100':
+        type: EYE_ARMOR_TRIM_SMITHING_TEMPLATE
+    '43':
+      '40':
         ==: org.bukkit.inventory.ItemStack
         v: 4189
-        type: SNOWBALL
-    '48':
-      '100':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-    '49':
-      '46':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
-    '50':
-      '80':
-        ==: org.bukkit.inventory.ItemStack
-        v: 4189
-        type: SNOWBALL
+        type: ANCIENT_DEBRIS
         amount: 2
+    '46':
+      '40':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: HONEYCOMB
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Трапка","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"gold"}]}'
+          PublicBukkitValues: |-
+            {
+                "huinautils:trapki_item": 1
+            }
+    '47':
+      '60':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: DIAMOND
+        amount: 16
+    '48':
+      '40':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: TNT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Улучшенный динамит I","strikethrough":false,"obfuscated":false,"bold":false,"italic":false,"underlined":false,"color":"green"}]}'
+          lore:
+          - '{"text":"","extra":["x3 мощнее обычного"]}'
+    '50':
+      '69':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: TOTEM_OF_UNDYING
+    '53':
+      '50':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: NETHERITE_UPGRADE_SMITHING_TEMPLATE

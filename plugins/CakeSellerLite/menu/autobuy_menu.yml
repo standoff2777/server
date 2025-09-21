@@ -1,0 +1,42 @@
+#Инвентарь АвтоСкупки
+inventory:
+  #Размер инвентаря
+  size: 54
+  #Название инвентаря
+  title: "АвтоСкупка"
+  #Описание продаваемых предметов
+  seller-lore:
+    - ""
+    - " #C102FA&l| &fСтатус: #C102FA%status%&f"
+    - ""
+    - " #C102FA&l⋀ #C102FAлкм &f- включить авто-скупку"
+    - " #C102FA&l⋁ #C102FAпкм &f- выключить авто-скупку"
+    - ""
+  status:
+    active: "&aВключено"
+    no-active: "&cВыключено"
+  #Предметы в инвентаре
+  items:
+    blue:
+      material: BLUE_STAINED_GLASS_PANE
+      customdata: 0
+      name: "&7"
+      lore: []
+      commands: []
+      slots: [0,1,7,8,9,17,36,44,45,46,52,53]
+    gray:
+      material: GRAY_STAINED_GLASS_PANE
+      customdata: 0
+      name: "&7"
+      lore: []
+      commands: []
+      slots: [2,3,4,5,6,18,26,27,35,47,48,50,51]
+    exit:
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNjNWZhZTNiNjUwZTZlZGIzMjQ1ZmE0MWU1YmUyZGE3OWIwZTE3ZjIyYzRiNGUxZTU5YjMyZjU3MzIwMmQxOCJ9fX0=
+      customdata: 0
+      name: "#C102FA[⚡] &fНазад в главное меню"
+      lore: []
+      commands:
+        - "[sound] UI_BUTTON_CLICK"
+        - "[open-menu] main"
+      slots: [49]

@@ -1,0 +1,384 @@
+1:
+  material: IRON_INGOT
+  translated_material: "Железный слиток"
+  price: 125-250
+  count: 500-2500
+  amount: 16
+2:
+  material: ENDER_PEARL
+  translated_material: "Жемчуг Края"
+  price: 120-120
+  count: 500-2500
+  amount: 16
+3:
+  material: SUGAR
+  translated_material: "Сахар"
+  price: 80-150
+  count: 500-2500
+  amount: 16
+4:
+  material: PAPER
+  translated_material: "Бумага"
+  price: 70-120
+  count: 500-2500
+  amount: 16
+5:
+  material: GUNPOWDER
+  translated_material: "Порох"
+  price: 125-350
+  count: 500-2500
+  amount: 16
+6:
+  material: COCOA_BEANS
+  translated_material: "Какао-бобы"
+  price: 100-150
+  count: 500-2500
+  amount: 16
+7:
+  material: GLOWSTONE_DUST
+  translated_material: "Светокаменная пыль"
+  price: 100-150
+  count: 500-2500
+  amount: 16
+8:
+  material: BOOK
+  translated_material: "Книга"
+  price: 150-550
+  count: 500-2500
+  amount: 16
+9:
+  material: CARROT
+  translated_material: "Морковь"
+  price: 110-300
+  count: 500-2500
+  amount: 16
+10:
+  material: ROTTEN_FLESH
+  translated_material: "Гнилая плоть"
+  price: 110-300
+  count: 500-2500
+  amount: 16
+11:
+  material: SAND
+  translated_material: "Песок"
+  price: 60-120
+  count: 500-2500
+  amount: 16
+12:
+  material: GLOWSTONE
+  translated_material: "Светокамень"
+  price: 100-150
+  count: 500-2500
+  amount: 16
+13:
+  material: MAGMA_BLOCK
+  translated_material: "Магмовый блок"
+  price: 75-250
+  count: 500-2500
+  amount: 16
+14:
+  material: CHORUS_FRUIT
+  translated_material: "Плод коруса"
+  price: 65-125
+  count: 500-2500
+  amount: 16
+15:
+  material: WHEAT
+  translated_material: "Пшеница"
+  price: 50-350
+  count: 500-2500
+  amount: 16
+16:
+  material: MELON
+  translated_material: "Арбуз"
+  price: 50-350
+  count: 500-2500
+  amount: 16
+17:
+  material: SWEET_BERRIES
+  translated_material: "Сладкие ягоды"
+  price: 50-150
+  count: 500-2500
+  amount: 16
+18:
+  material: BEETROOT
+  translated_material: "Свёкла"
+  price: 150-350
+  count: 500-2500
+  amount: 16
+19:
+  material: POTATO
+  translated_material: "Картофель"
+  price: 35-95
+  count: 500-2500
+  amount: 16
+20:
+  material: MAGMA_CREAM
+  translated_material: "Магмовый крем"
+  price: 50-110
+  count: 500-2500
+  amount: 16
+21:
+  material: SPIDER_EYE
+  translated_material: "Паучий глаз"
+  price: 20-65
+  count: 500-2500
+  amount: 16
+22:
+  material: ARROW
+  translated_material: "Стрела"
+  price: 80-100
+  count: 500-2500
+  amount: 16
+23:
+  material: BONE_BLOCK
+  translated_material: "Костяной блок"
+  price: 150-450
+  count: 500-2500
+  amount: 16
+24:
+  material: PUFFERFISH
+  translated_material: "Иглобрюх"
+  price: 3000-10000
+  count: 500-2500
+  amount: 16
+25:
+  material: NETHER_WART
+  translated_material: "Адский нарост"
+  price: 30-125
+  count: 500-2500
+  amount: 16
+26:
+  material: DRAGON_BREATH
+  translated_material: "Драконье дыхание"
+  price: 140-860
+  count: 500-2500
+  amount: 16
+27:
+  material: EMERALD
+  translated_material: "Изумруд"
+  price: 120-500
+  count: 500-2500
+  amount: 16
+28:
+  material: WITHER_ROSE
+  translated_material: "Роза визера"
+  price: 150-300
+  count: 500-2500
+  amount: 16
+29:
+  material: OBSIDIAN
+  translated_material: "Обсидиан"
+  price: 185-900
+  count: 500-2500
+  amount: 16
+30:
+  material: EGG
+  translated_material: "Яйцо"
+  price: 25-75
+  count: 500-2500
+  amount: 16
+31:
+  material: SHULKER_SHELL
+  translated_material: "Панцирь шалкера"
+  price: 650-1450
+  count: 500-2500
+  amount: 16
+32:
+  material: BRICK
+  translated_material: "Кирпич"
+  price: 20-50
+  count: 500-2500
+  amount: 16
+33:
+  material: ANCIENT_DEBRIS
+  translated_material: "Древние обломки"
+  price: 4000-12500
+  count: 500-2500
+  amount: 16
+34:
+  material: GHAST_TEAR
+  translated_material: "Слеза гаста"
+  price: 1500-5000
+  count: 500-2500
+  amount: 16
+35:
+  material: RABBIT_FOOT
+  translated_material: "Кроличья лапка"
+  price: 300-900
+  count: 500-2500
+  amount: 16
+36:
+  material: COAL
+  translated_material: "Уголь"
+  price: 50-150
+  count: 500-2500
+  amount: 16
+37:
+  material: BONE
+  translated_material: "Кость"
+  price: 30-80
+  count: 500-2500
+  amount: 16
+38:
+  material: LEATHER
+  translated_material: "Кожа"
+  price: 150-450
+  count: 500-2500
+  amount: 16
+39:
+  material: MELON_SEEDS
+  translated_material: "Семена арбуза"
+  price: 50-100
+  count: 500-2500
+  amount: 16
+40:
+  material: PUMPKIN_SEEDS
+  translated_material: "Семена тыквы"
+  price: 50-100
+  count: 500-2500
+  amount: 16
+41:
+  material: STRING
+  translated_material: "Нить"
+  price: 30-80
+  count: 500-2500
+  amount: 16
+42:
+  material: HONEYCOMB
+  translated_material: "Пчелиные соты"
+  price: 300-1500
+  count: 500-2500
+  amount: 16
+43:
+  material: ENDER_CHEST
+  translated_material: "Сундук Края"
+  price: 2000-6500
+  count: 500-2500
+  amount: 16
+44:
+  material: COOKED_PORKCHOP
+  translated_material: "Жареная свинина"
+  price: 150-300
+  count: 500-2500
+  amount: 16
+45:
+  material: COOKED_BEEF
+  translated_material: "Жареная говядина"
+  price: 150-300
+  count: 500-2500
+  amount: 16
+46:
+  material: BAMBOO
+  translated_material: "Бамбук"
+  price: 50-450
+  count: 500-2500
+  amount: 16
+47:
+  material: PUMPKIN
+  translated_material: "Тыква"
+  price: 130-750
+  count: 500-2500
+  amount: 16
+48:
+  material: SUGAR_CANE
+  translated_material: "Сахарный тростник"
+  price: 120-400
+  count: 500-2500
+  amount: 16
+49:
+  material: COD
+  translated_material: "Треска"
+  price: 50-300
+  count: 500-2500
+  amount: 16
+50:
+  material: SALMON
+  translated_material: "Лосось"
+  price: 150-650
+  count: 500-2500
+  amount: 16
+51:
+  material: TROPICAL_FISH
+  translated_material: "Тропическая рыба"
+  price: 5000-15000
+  count: 500-2500
+  amount: 16
+52:
+  material: SNOWBALL
+  translated_material: "Снежок"
+  price: 5-30
+  count: 500-2500
+  amount: 16
+53:
+  material: BLAZE_ROD
+  translated_material: "Огненный стержень"
+  price: 80-550
+  count: 500-2500
+  amount: 16
+54:
+  material: POPPED_CHORUS_FRUIT
+  translated_material: "Прожаренный плод коруса"
+  price: 30-135
+  count: 500-2500
+  amount: 16
+55:
+  material: DIAMOND
+  translated_material: "Алмаз"
+  price: 250-850
+  count: 500-2500
+  amount: 16
+56:
+  material: GOLD_INGOT
+  translated_material: "Золотой слиток"
+  price: 50-450
+  count: 500-2500
+  amount: 16
+57:
+  material: NETHERITE_INGOT
+  translated_material: "Незеритовый слиток"
+  price: 5000-15000
+  count: 500-2500
+  amount: 16
+58:
+  material: SCUTE
+  translated_material: "Щиток"
+  price: 120-300
+  count: 500-2500
+  amount: 16
+59:
+  material: KELP
+  translated_material: "Водоросли"
+  price: 20-100
+  count: 500-2500
+  amount: 16
+60:
+  material: NETHER_SPROUTS
+  translated_material: "Адские ростки"
+  price: 35-125
+  count: 500-2500
+  amount: 16
+61:
+  material: CRIMSON_FUNGUS
+  translated_material: "Багровый гриб"
+  price: 100-450
+  count: 500-2500
+  amount: 16
+62:
+  material: WARPED_FUNGUS
+  translated_material: "Искажённый гриб"
+  price: 100-450
+  count: 500-2500
+  amount: 16
+63:
+  material: CRIMSON_ROOTS
+  translated_material: "Багровые корни"
+  price: 35-125
+  count: 500-2500
+  amount: 16
+64:
+  material: BROWN_MUSHROOM
+  translated_material: "Коричневый гриб"
+  price: 50-250
+  count: 500-2500
+  amount: 16

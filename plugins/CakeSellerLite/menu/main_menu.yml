@@ -1,0 +1,58 @@
+#Инвентарь главного меню скупщика
+inventory:
+  #Размер инвентаря
+  size: 54
+  #Название инвентаря
+  title: "Скупщик"
+  #Продаваемые предметы
+  seller-item: [20,21,22,23,24,29,30,31,32,33]
+  #Описание продаваемых предметов
+  seller-lore:
+    - ""
+    - " #C102FA&l| &fЦена за &7%amount%&f шт: #C102FA%price% $"
+    - " #C102FA&l| &fТекущий множитель: &7х%multiplier%&f"
+    - " #C102FA&l| &fОсталось: #C102FA%count%&f шт."
+    - ""
+    - " #C102FA&l⋀ #C102FAлкм &f- продать #C102FA%amount% шт."
+    - " #C102FA&l⋁ #C102FAпкм &f- продать #C102FAвсе"
+    - ""
+  #Предметы в инвентаре
+  items:
+    blue:
+      material: BLUE_STAINED_GLASS_PANE
+      customdata: 0
+      name: "&7"
+      lore: []
+      commands: []
+      slots: [0,1,7,8,9,17,36,44,45,46,52,53]
+    gray:
+      material: GRAY_STAINED_GLASS_PANE
+      customdata: 0
+      name: "&7"
+      lore: []
+      commands: []
+      slots: [2,3,5,6,18,26,27,35,47,48,50,51]
+    info:
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWViM2Y5MzJkNGM1ODJiOWY5ZjAyNjJhYTY3N2NiY2Y2NGE0MTIxNWNjYmYxODY2Y2Q3YjA2ZWJjN2UxZiJ9fX0=
+      customdata: 0
+      name: "#C102FA[⌛] &fИнформация"
+      lore:
+        - ""
+        - "#C102FA&l| &fВаш личный множитель: #C102FAx%cakesellerlite_player_multiplier%"
+        - "#C102FA&l| &fВаш баланс: #C102FA%vault_eco_balance_formatted% $"
+        - ""
+        - "#C102FA&l| &fПродано предметов: #C102FA%cakesellerlite_player_sell_items% ⚡"
+        - ""
+        - "#C102FA&l| &fСледующее обновление: #C102FA%cakesellerlite_update%"
+        - ""
+      commands: []
+      slots: [4]
+    autobuy:
+      material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE1MDIwY2VjYjAzODg0NzQ2ZWNlNzE2N2E2YWVlOWNiOGM3Y2U1ZDNkYzlkZWNiYzM2OTBiMjIyYzZlMjEyZSJ9fX0=
+      customdata: 0
+      name: "#C102FA[🛡] &fАвто-Скупка"
+      lore: []
+      commands:
+        - "[sound] UI_BUTTON_CLICK"
+        - "[open-menu] autobuy"
+      slots: [49]
